@@ -1,0 +1,95 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #8c7979;
+    font-family: 'calibri';
+  }
+  
+  header {
+    background: #d9e3d9;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+  }
+  
+  .menu {
+    width: 890px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 0px 0;
+    float: left;
+    position: relative;
+    margin-top: 35px;
+    font-size: 20px;
+    
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #603939;
+    font-weight: bold;
+  }
+  
+  nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: #a08b9a;
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sa;
+  }
+
+  .Logotipo{
+    width: 80px;
+height: 80px;
+margin-top: 2px;
+border-radius: 50px;
+transform: scale(1);
+transition: transform 1s ease-in-out;
+  }
+
+  .Logotipo:hover{
+transform: scale(1.5);
+
+  }
+
+
+
+
+
+
+
